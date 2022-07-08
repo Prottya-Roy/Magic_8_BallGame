@@ -1,0 +1,54 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(140, 140, 186, 0.3782467532467533) 72%, rgba(113, 145, 152, 0.6493506493506493) 100%);
+    
+}
+
+
+header {
+    padding-top: 0.25em;
+    text-align: center;
+}
+
+header span {
+    font-size: 60px;
+    color: burlywood;
+}
+
+.page {
+    width: 80%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.ball,
+.button {
+    margin: 0 auto;
+}
+
+.answer {
+    position: absolute;
+    width: 14%;
+    top: 50%;
+    left: 50%;
+    margin-top: -60px;
+    margin-left: -65px;
+    font: 16px ;
+    color: #222;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#questionButton {
+    font: 26px ;
+    border-radius: 5px;
+    border: none;
+    color: #f8f8f8;
+    background-color: burlywood;
+    padding: 10px 75px;
+    display: block;
+    margin: 0 auto;
+}
